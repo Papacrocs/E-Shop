@@ -1,4 +1,6 @@
-{% extends 'store/main.html' %} {% load static %} {% block content %}
+{% extends 'store/main.html' %}
+{% load static %} 
+{% block content %}
 
 <h3>Store</h3>
 <div class="row">
@@ -22,9 +24,7 @@
       </button>
       <a class="btn btn-outline-success" href="#">View</a>
       <h4 class="product-amount">
-        <strong
-          ><strike class="naira">N</strike
-          >{{product.price|floatformat:2}}</strong
+        <strong><strike class="naira">N</strike>{{product.price|floatformat:2}}</strong
         >
       </h4>
     </div>
