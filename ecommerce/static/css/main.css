@@ -1,5 +1,5 @@
 body {
-  background-color: hsl(0, 0%, 98%);
+  background-color: hsl(0, 2%, 82%);
 }
 
 h1,
@@ -19,8 +19,10 @@ h6 {
 }
 
 .thumbnail {
-  width: 150%; /* Adjust the width to your desired size, e.g., 100% for full width */
-  height: auto; /* Let the height adjust proportionally to maintain the aspect ratio */
+  padding: 10;
+  width: 100%; /* Adjust the width to your desired size, e.g., 100% for full width */
+  height: 250px; /* Let the height adjust proportionally to maintain the aspect ratio */
+  object-fit: cover;
   -webkit-box-shadow: -1px -3px 5px -2px rgba(214, 214, 214, 1);
   -moz-box-shadow: -1px -3px 5px -2px rgba(214, 214, 214, 1);
   box-shadow: -1px -3px 5px -2px rgba(214, 214, 214, 1);

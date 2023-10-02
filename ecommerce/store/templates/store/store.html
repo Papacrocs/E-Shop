@@ -6,11 +6,10 @@
 <div class="row">
   {% for product in products %}
   <div class="col-lg-4">
-    <div class="box-element product">
-      
-      <img class="thumbnail" src="{{product.imageURL}}" />
     
-      <h6><strong>{{product.name}}</strong></h6>
+    <div class="box-element product">
+    <img class="thumbnail" src="{{product.imageURL}}" />
+      <h6 class="mt-3"><strong>{{product.name}}</strong></h6>
       <hr />
       <!-- We are using the class of update-cart for javascript
       We are also setting custom attributes like
